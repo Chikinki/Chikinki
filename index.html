@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>SketchEM</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  
+  <body>
+    <section>
+      <div id="drawingTools">
+        <div id="colors">
+          <button id="red" onclick="changeColor('#66000')"></button>
+          <button id="green" onclick="changeColor('#006600')"></button>
+          <button id="yellow" onclick="changeColor('#666600')"></button>	
+					<button id="brown" onclick="changeColor('#331a00')"></button>	
+					<button id="orange" onclick="changeColor('#cc5200')"></button>
+					<button id="pink" onclick="changeColor('#990099')"></button>
+					<button id="violet" onclick="changeColor('#330066')"></button>
+					<button id="gray" onclick="changeColor('#262626')"></button>
+					<button id="black" onclick="changeColor('#000000')"></button>
+          <br>
+          <button id="red1" onclick="changeColor('#ff0000')"></button>
+					<button id="green1" onclick="changeColor('#00cc00')"></button>
+					<button id="blue1" onclick="changeColor('#0000ff')"></button>
+					<button id="yellow1" onclick="changeColor('#ffff00')"></button>
+					<button id="brown1" onclick="changeColor('#663300')"></button>
+					<button id="orange1" onclick="changeColor('#ff6600')"></button>
+					<button id="pink1" onclick="changeColor('#ff00ff')"></button>
+					<button id="violet1" onclick="changeColor('#6600cc')"></button>
+					<button id="gray1" onclick="changeColor ('#545454')"></button>
+					<button id="white" onclick="changeColor('#ffffff')"></button>
+          <br>
+          <button id="red2" onclick="changeColor('#ff6666')"></button>
+					<button id="green2" onclick="changeColor('#66ff66')"></button>
+					<button id="blue2" onclick="changeColor('#6666ff')"></button>
+					<button id="yellow2" onclick="changeColor('#ffff66')"></button>
+					<button id="brown2" onclick="changeColor('#994d00')"></button>
+					<button id="orange2" onclick="changeColor ('#ff944d')"></button>
+					<button id="pink2" onclick="changeColor ('#ff66ff')"></button>
+					<button id="violet2" onclick="changeColor ('#b366ff')"></button>
+					<button id="gray2" onclick="changeColor ('#939393')"></button>
+        </div>
+        <br><br><br>
+          <div id="otherTools">
+            <button id="clearCanvas" onclick="clearCanvas()">CLEAR</button>
+          </div>
+         </div>
+       <br><br><br>
+       <canvas id="canvas" width="800" height="500"></canvas>
+       </section>
+       
+       <script src="script.js"></script>
+   </body>
+   </html>
+          
