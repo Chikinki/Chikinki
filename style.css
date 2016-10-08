@@ -1,0 +1,106 @@
+*{ margin: 0; padding: 0;}
+
+body{
+    background-image: url(mbg.jpg);
+}
+section
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+canvas
+{
+	display: block;
+	border: 1px solid black;
+	margin: 10px auto 0px;
+    	background: #ffffff;
+}
+
+button
+{
+	outline:0;
+	border:0;
+}
+
+#drawingTools
+{
+	width: 800px;
+	height: 80px;
+	margin: 0px auto;
+}
+
+#colors
+{
+	width: 100%;
+	height: 40px;
+	
+}
+
+#colors button
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+	#colors button:hover {opacity: 0.5;}
+
+#black {background: #000000;}
+#white {background: #ffffff;}
+#red  {background: #660000;}
+#red1 {background: #ff0000;}
+#red2 {background: #ff6666;}
+#green  {background: #006600;}
+#green1 {background: #00cc00;}
+#green2 {background: #66ff66;}
+#blue  {background: #000066;}
+#blue1 {background: #0000ff;}
+#blue2 {background: #6666ff;}
+#yellow  {background: #666600;}
+#yellow1 {background: #ffff00;}
+#yellow2 {background: #ffff66;}
+#brown  {background: #331a00;}
+#brown1 {background: #663300;}
+#brown2 {background: #994d00;}
+#orange  {background: #cc5200;}
+#orange1 {background: #ff6600;}
+#orange2 {background: #ff944d;}
+#pink  {background: #990099;}
+#pink1 {background: #ff00ff;}
+#pink2 {background: #ff66ff;}
+#violet  {background: #330066;}
+#violet1 {background: #6600cc;}
+#violet2 {background: #b366ff;}
+#gray  {background: #262626;}
+#gray1 {background: #545454;}
+#gray2 {background: #939393;}
+
+
+#otherTools
+{
+	width: 100%;
+	height: 60px;
+}
+
+#otherTools button
+{
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+	background: #0f0f0a;
+	color: white;
+	font: 25px impact;
+	cursor: pointer;
+}
+	#otherTools button:hover {opacity: 0.5;}
+	
+
+
+	canvas:active 
+	{
+    cursor: default;
+	cursor: pointer;
